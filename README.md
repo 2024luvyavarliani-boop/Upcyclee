@@ -1,20 +1,65 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+♻️ UpCycle Connect
 
-# Run and deploy your AI Studio app
+UpCycle Connect is a web platform that helps students, labs, and departments share unused materials such as electronics, lab equipment, tools, scrap components, plastics, metal parts, etc — instead of throwing them away.
 
-This contains everything you need to run your app locally.
+This supports sustainability, cost-saving, and circular reuse across campus 💚
+ Features
+ User Access
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ksCT7SlGuytywRtTkodT3NGJM-E1W9a3
+Simple web-based UI
 
-## Run Locally
+ Google / OTP login
 
-**Prerequisites:**  Node.js
+ Add Materials
+
+Users can list items they no longer need:
+
+Material name
+
+Category (E-waste, Lab, Hardware, etc.)
+
+Quantity & Unit
+
+Location
+
+Description
+
+Listings are stored in Firebase Firestore
+
+Browse Materials
+
+Users can:
+ Search
+ Filter by category
+ View item details
+
+📩 Request Items
+
+Users can submit a request form to collect a listed material.
+
+ Goal
+
+Reduce waste
+Encourage sharing
+Promote sustainability across campus
+
+Tech Stack
+Layer	Technology
+Frontend	React + Vite + TypeScript
+UI	TailwindCSS + shadcn
+Database	Firebase Firestore
+Hosting (optional)	Vercel / Firebase Hosting
+
+🔌 Firebase (Backend)
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+Security rules lock access unless authorized.
+
+🌍 Why This Matters
+
+ Reduces e-waste
+ Encourages circular economy
+ Saves money on procurement
+ Builds student collaboration
+
