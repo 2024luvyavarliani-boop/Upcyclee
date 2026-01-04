@@ -1,0 +1,8 @@
+{
+  "name": "Copy of UpCycle Connect",
+  "description": "A hyper-local marketplace for industrial and lab waste, connecting colleges and industries with students and innovators to redistribute surplus materials like metal scraps, timber, and electronic components.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}
