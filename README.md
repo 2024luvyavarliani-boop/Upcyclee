@@ -1,65 +1,94 @@
-♻️ UpCycle Connect
+UpCycle Connect ♻
 
-UpCycle Connect is a web platform that helps students, labs, and departments share unused materials such as electronics, lab equipment, tools, scrap components, plastics, metal parts, etc — instead of throwing them away.
+UpCycle Connect is a campus sustainability platform that enables students, laboratories, departments, and industry partners to share unused materials instead of discarding them.
+The platform helps build a circular, reuse-first ecosystem where materials such as lab equipment, tools, components, scrap parts, and hardware can be listed, discovered, and reused.
 
-This supports sustainability, cost-saving, and circular reuse across campus 💚
- Features
- User Access
+Problem Statement
 
-Simple web-based UI
+Across campuses and small industries, large volumes of usable materials are discarded due to lack of visibility and coordination. Students, labs, and innovators who could reuse these resources often have no way to discover them. This leads to unnecessary waste, higher procurement costs, and environmental impact.
 
- Google / OTP login
+Solution
 
- Add Materials
+UpCycle Connect provides a digital platform that:
 
-Users can list items they no longer need:
+• Allows users to list unused materials
+• Makes materials searchable and discoverable
+• Enables transparent request and reuse workflows
+• Builds a resource-sharing community
+• Reduces waste and landfill contribution ♻
 
-Material name
+Key Features
+User Accounts and Roles
 
-Category (E-waste, Lab, Hardware, etc.)
+• Google Sign-In authentication
+• User type selection:
+– Student
+– Lab / Department
+– Industry Partner
 
-Quantity & Unit
+This supports accountability and trust.
 
-Location
+Material Listing
 
-Description
+Users can publish available materials including:
+• Name
+• Category
+• Quantity and Unit
+• Location
+• Description
 
-Listings are stored in Firebase Firestore
+Listings are stored securely in the backend.
 
-Browse Materials
+Material Discovery
 
 Users can:
- Search
- Filter by category
- View item details
+• Browse all available materials
+• Search using keywords
+• Filter by category
+• View detailed information before requesting
 
-📩 Request Items
+Requests and Reuse
 
-Users can submit a request form to collect a listed material.
+Interested users can submit a material request.
+This encourages sharing, collaboration, and responsible reuse.
 
- Goal
+Technology Overview
 
-Reduce waste
-Encourage sharing
-Promote sustainability across campus
+• Frontend: React + modern UI framework
+• Backend: Firebase
+• Database: Firestore
+• Authentication: Google Sign-In
+• Hosting: Web-based platform
 
-Tech Stack
-Layer	Technology
-Frontend	React + Vite + TypeScript
-UI	TailwindCSS + shadcn
-Database	Firebase Firestore
-Hosting (optional)	Vercel / Firebase Hosting
+Objectives and Impact
 
-🔌 Firebase (Backend)
+• Reduce material waste
+• Extend lifecycle of resources
+• Support sustainability goals
+• Lower procurement and project costs
+• Encourage innovation through reuse
+• Build connection between students, labs, and industry
 
+Future Enhancements
 
+• Image upload for listings
+• Admin approval workflows
+• Pickup / transfer tracking
+• Analytics dashboard
+• Notifications
+• Role-based permissions
+• Verified organization accounts
 
-Security rules lock access unless authorized.
+Intended Users
 
-🌍 Why This Matters
+• Students
+• Research labs
+• Engineering departments
+• Makerspaces
+• Innovation cells
+• Local industries
 
- Reduces e-waste
- Encourages circular economy
- Saves money on procurement
- Builds student collaboration
+Vision
 
+To transform unused materials into valuable resources,
+and create a culture of reuse over disposal — campus-wide and beyond. ♻
